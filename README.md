@@ -38,7 +38,7 @@ terraform apply
 aws eks --region ap-southeast-1 update-kubeconfig --name eks_cluster
 
 mkdir $HOME/bin
-curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.18.9/2020-11-02/bin/linux/amd64/kubectl
+curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 cp ./kubectl $HOME/bin/kubectl
 export PATH=$HOME/bin:$PATH
